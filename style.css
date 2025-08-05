@@ -1,0 +1,111 @@
+/* 
+:root {
+  --dark-maroon: #6F1D1B;
+  --warm-sand: #BB9457;
+  --deep-coffee: #432818;
+  --rich-brown: #99582A;
+  --soft-cream: #FFE6A7;
+}
+
+
+body {
+  font-family: 'Syne', sans-serif;
+  background-color: var(--soft-cream);
+  color: var(--deep-coffee);
+  overflow-x: hidden;
+cursor: url('assets/icons8-camera-48.png') 0 0, auto;
+
+  margin: 0;
+  padding: 0;
+}
+
+
+h1, h2, h3 {
+  color: var(--deep-coffee);
+  margin-top: 0;
+}
+
+p {
+  color: var(--deep-coffee);
+}
+
+a {
+  color: var(--rich-brown);
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--dark-maroon);
+}
+
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 6px solid var(--warm-sand);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-bottom: 1rem;
+}
+
+
+section {
+  padding: 4rem 2rem;
+  margin-bottom: 3rem;
+  border-radius: 1rem;
+}
+
+
+.card {
+  background-color: var(--soft-cream);
+  border: 1px solid var(--warm-sand);
+  padding: 2rem;
+  border-radius: 1rem;
+  color: var(--deep-coffee);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  transform: translateY(-6px);
+}
+
+
+.button {
+  background-color: var(--rich-brown);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--warm-sand);
+  color: var(--deep-coffee);
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  background-color: #0D3B66; 
+  gap: 30px;
+}
+
+.footer-icons a {
+  color: #FAF0CA; 
+  font-size: 28px;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #F4D35E; 
+  transform: scale(1.2);
+}
+ */
